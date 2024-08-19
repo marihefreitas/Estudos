@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Songs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/79c8886580.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">My Songs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--banner-->
+      <div class="container-xxl m-0 p-0 d-none d-md-block" id="banner">
+        <img src="Imagens/banner musica_upscayl_4x_realesrgan-x4plus.png" alt="">
+      </div>
+      <!--Player-->
+<section id="playerl" class="mt-5">
+    <div class="grid text-center">
+        <h1>We are Bulletproof: The Eternal</h1>
+        <div class="g-col-4"><audio src="Audios/Musica do bts.mp3" type="audio/mpeg" id="song"></audio>
+          
+            <div class="controls">
+              <div onclick="playPause()"><i class="fa-solid fa-play" style="color: #ffffff;" id="ctrlIcon"></i></div>
+            </div>  
+          <input type="range" value="0"  id="progress">
+
+        </div>
+      </div>
+    <div class="container-lg">
+        <div class="text-center">
+           <p class="lead">가진 게 꿈밖에 없었네 눈 뜨면 뿌연</p>
+           <p class="lead">아침뿐</p>
+           <p class="lead">밤새 춤을 추며 노래해, 그 끝이 없던</p>
+           <p class="lead">악보들</p>
+           <p class="lead">Ayy, 우린 호기롭게 shout, "다</p>
+           <p class="lead">던져봐"</p>
+           <p class="lead">세상과 첫 싸움, don't wanna die</p>
+           <p class="lead">But so much pain, too much cryin'</p>
+           <p class="lead">So 무뎌지는 칼날</p>
+           <p class="lead">Oh, I-I-I-I-I-I-I-I</p>
+           <p class="lead">We were only seven</p>
+           <p class="lead"> I-I-I-I-I-I-I-I</p>
+           <p class="lead">But we have you all now</p>
+           <p class="lead">일곱의 겨울과 봄 뒤에</p>
+           <p class="lead">이렇게 맞잡은 손끝에</p>
+           <p class="lead">Oh, I-I-I-I-I-I-I-I</p>
+           <p class="lead">Yeah, we got to heaven</p>
+           <p class="lead">내게 돌을 던져 (oh), 우린 겁이</p>
+           <p class="lead">없어 anymore (oh)</p>
+           <p class="lead">We are, we are together, </p>
+           <p class="lead">bulletproof</p>
+           <p class="lead">                    Yeah, we have you, have you</p>
+           <p class="lead">                    또 겨울이 와도 (oh), 누가 날 </p>
+           <p class="lead">                    막아도, 걸어가 (oh)</p>
+           <p class="lead">                    We are, we are forever, </p>
+           <p class="lead">bulletproof</p>
+           <p class="lead">                    Yeah, we got to heaven</p>
+           <p class="lead">                    We are bullet-bullet-bulletproof</p>
+           <p class="lead">                    부정적인 시선에 맞서 우린 해냈구</p>
+           <p class="lead">                    나쁜 기억도 많은 시련도
+        </p>
+           <p class="lead">                    다 호기롭게 우린 막아냈지, </p>
+           <p class="lead">bulletproof</p>
+           <p class="lead">...</p>
+        </div>
+    </div>
+</section>
+<footer>
+  <p>Feito com o objetivo de estudo pessoal.</p>
+  &copy; copyright 2024 por LunaMika
+</footer>     
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

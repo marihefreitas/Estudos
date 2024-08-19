@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(Imagens/pexels-photo-1183099.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Verdana';
+}
+#box{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    position: fixed;
+    padding: 20px;
+    right: 270px;
+    bottom: 50px;
+    opacity: 0.6;
+    filter: blur(1px);
+}
+#box1{
+    width: 700px;
+    height: 500px;
+    position: fixed;
+    padding: 10px;
+    right: 280px;
+    bottom: 60px;
+}
+#box1 h1{
+    position: fixed;
+    left: 320px;
+    top: 120px;
+    color: white;
+}
+#mail input{
+    position: fixed;
+    left: 320px;
+    top: 200px;
+    background: #cacaca;
+    width: 270px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-size: 10px;
+    padding-left: 10px;
+    outline: 0px;
+}
+#mail label{
+    position: fixed;
+    left: 320px;
+    top: 170px;
+    color: white;
+}
+#senha input{
+    position: fixed;
+    left: 320px;
+    top: 270px;
+    background: #cacaca;
+    width: 270px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-size: 10px;
+    padding-left: 10px;
+    outline: 0px;
+}
+#senha label{
+    position: fixed;
+    left: 320px;
+    top: 240px;
+    color: white;
+}
+a{
+    position: fixed;
+    left: 470px;
+    top: 320px;
+    color: white;
+    font-size: 12px;
+}
+#b1{
+    position: fixed;
+    left: 320px;
+    top: 360px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Verdana';
+    font-weight: bolder;
+    font-size: 10px;
+    width: 126px;
+    height: 43px;
+    cursor: pointer;
+}
+h5{
+    position: fixed;
+    left: 320px;
+    bottom: 100px;
+    color: white;
+    font-size: 11px;
+}
+#b2{
+    position: fixed;
+    left: 500px;
+    bottom: 95px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Verdana';
+    font-weight: bolder;
+    font-size: 10px;
+    height: 39px;
+    width: 130px;
+    cursor: pointer;
+}
+img{
+    height: 500px;
+    width: 340px;
+    position: fixed;
+    right: 290px;
+    bottom: 70px;
+    border-radius: 20px;

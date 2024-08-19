@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Reference Sheet for Bootstrap</title>
+</head>
+<body>
+    <!-- heading tags -->
+    <h1>H1 no bootstrap</h1>
+    <h2>H2 no bootstrap</h2>
+    <h3>H3 no bootstrap</h3>
+
+    <h2 class="h5">H2 with H5 class</h2>
+    
+    <!-- display headings -->
+     <h1 class="display-1">display 1 heading</h1>
+     <h1 class="display-4">display 4 heading</h1>
+     <h1 class="display-6">display 6 heading</h1>
+    <p class="display-1">p tag with display-1 class</p>
+     
+    <!-- Lead text and alignment -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p><!--this text is normal-->
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><!--This text is a bit bigger than the  normal-->
+    <p class="lead text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><!--It doesn't necessarily need the start class as it's on the start by default-->
+
+    <!-- Text decoration and font weight -->
+     <p class="text-decoration-underline">This is underlined text</p>
+     <p class="text-decoration-line-through">This is line through text</p>
+     <p class="fw-bold">This is underlined text</p>
+     <small>this is small</small>
+
+    <!-- text colors -->
+     <p class="text-primary">Theme primary color</p>
+     <p class="text-secondary">Theme secondary color</p>
+     <p class="text-info">Theme info color</p>
+     <p class="text-warning">Theme warning color</p>
+     <p class="text-success">Theme success color</p>
+     <p class="text-danger">Theme danger color</p>
+     <p class="text-muted">Theme muted color</p>
+
+    <!-- background colors -->
+    <p class="text-white bg-primary">white text on primary bg</p>
+    <p class="text-white bg-secondary">white text on secondary bg</p>
+    <p class="text-light bg-danger">Light text on danger bg</p>
+
+    <!-- Basic Buttons -->
+     <h2>Buttons</h2>
+     <button class="btn btn-primary">primary button</button>
+     <button class="btn btn-secondary">secondary button</button>
+
+    <!-- Anchor tags as buttons -->
+     <h2>Links as buttons</h2>
+     <a href="#" class="btn btn-info">info ancher tags</a>
+     <a href="#" class="btn btn-success">success ancher tags</a>
+
+    <!-- Button Sizes -->
+     <h2>button sizes</h2>
+     <button class="btn btn-lg btn-danger">large danger button</button>
+     <button class="btn btn-small btn-primary">small primary button</button>
+
+    <!-- Outlined Styles -->
+     <h2>button styles</h2>
+     <button class="btn btn-outline-primary">outlined primary button</button>
+     <button class="btn btn-outline-secondary btn-lg">large outlined secondary button</button>
+
+    <!-- Button Groups -->
+     <h2>Button groups</h2>
+     <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+     </div>
+    
+<!-- Maging and Padding-->
+     <div class="bg-primary m-1 p-1">small margin and padding</div>
+     <div class="bg-primary m-5 p-5">large margin and padding</div>
+     <div class="bg-primary my-3 px-5">magin in Y direct, padding in X direction</div>
+     <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1"> m and p for each direction</div>
+     
+<!-- borders -->
+ <div class="m-3 p-3 border">default border</div>
+ <div class="m-3 p-3 border-top border-end">individual borders</div>
+ <div class="m-3 p-3 border-start border-success">border success color at start</div>
+ <div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+ <div class="m-3 p-3 rounded border border-5">rounded corners</div>
+ <div class="m-3 p-3 rounded-pill bg-primary">rounded pill corners</div>
+
+<!-- box shadow -->
+ <div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+ <div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+ <div class="m-3 p-3 shadow">element with medium box shadow</div>
+
+<!-- font weight -->
+ <p class="fw-bold">bold text</p>
+ <p class="fw-bolder">bolder text</p>
+ <p>normal text</p>
+ <p class="fw-light">light text</p>
+ <p class="fst-italic">italic text</p>
+ <p class="fst-italic fw-light">italic light text</p><br>
+ <hr><br>
+ <!--Containers-->
+ <div class="container my-5">
+    <h2>normal container</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+ </div>
+
+ <div class="container-fluid">
+    <h2>fluid container</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere alias pariatur deleniti corporis.</p>
+ </div>
+
+ <div class="container-lg my-5">
+    <h2> 100% widht until lg screen, then container</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+ </div>
+
+ <div class="container-xl my-5">
+    <h2>100% until xl screens, then container</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed cupiditate ea nihil.</p>
+ </div><br>
+ <hr><br>
+
+ <!--grid system-->
+ <div class="container-lg my-5">
+    <h2>basic grid</h2>
+    <div class="row">
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col 4</div>
+        </div>
+    </div>
+ </div>
+
+ <div class="container-lg my-5">
+    <h2>column widths</h2>
+    <div class="row">
+        <div class="col-6">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+ </div>
+
+ <div class="container-lg my-5">
+    <h2>responsive column widths</h2>
+    <div class="row">
+        <div class="col-sm-4 col-lg-6">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+ </div>
+
+ <div class="container-lg my-5">
+    <h2>Justifying columns</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+ </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

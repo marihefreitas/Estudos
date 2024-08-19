@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Console';
+}
+body{
+    background-color: #E8D8C4;
+}
+header li, a, button{
+    font-family: 'Lucida Console';
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: #561C24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+header h1{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+}
+.navlinks li, a{
+    transition: all 0.3s ease 0s;
+}
+.navlinks li, a:hover{
+    color: black;
+}
+header button{
+    padding: 9px 25px;
+    background-color: rgba(109, 41, 50, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+header button:hover{
+    background-color: rgba(109, 41, 50, 0.8);
+}
+#textos{
+    text-align: center;
+}
+#hyperlinks{
+    text-align: center;
+    background-color: #561C24;
+    padding: 10px;
+}
+#imgs{
+    text-align: center;
+}
+#audio{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#video {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#divspan{
+    text-align: center;
+    padding: 10px;
+}
+#listas{
+    text-align: center;
+    padding: 10px;
+}
+#tabela{
+    display: flex;
+    justify-content: center;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+}
+#botao button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 1);
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+#botao button:hover{
+    background-color: rgba(128, 128, 128, 0.8);
+}

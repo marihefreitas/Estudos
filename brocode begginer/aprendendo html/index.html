@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro website</title>
+    <!--linkando com css-->
+    <link rel="stylesheet" href="STYLE2.css">
+    <!--Colocando favicon-->
+    <link rel="shortcut icon" href="Imagens/c161c8eb9755205f66a499c50d807ead.jpg" type="image/x-icon">
+</head>
+<body>
+    <!--Headers e textos-->
+
+    <header>
+        <h1>HTML e CSS</h1>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="">home</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">products</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contact</button></a>
+    </header>
+
+    <main>
+        <h1><span style="background-color: yellow;">Textos, parágrafos e Palavras</span></h1><br>
+    <div id="textos">
+        <h1>Esse é o título</h1>
+        <p>esse é um texto</p><br>
+    
+        <h2>Esse é um título menor</h2>
+        <p><i>Esse é um texto em itálico</i></p><br>
+    
+        <h1>Esse Título é maior</h1>
+        <p><strong>Esse texto tá em negrito</strong></p><br>
+        <pre>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec ipsum nisl, auctor ut tortor vitae, finibus posuere leo.
+            Vestibulum molestie, purus eu lacinia facilisis, 
+            dolor nisl aliquam libero, ac venenatis ex libero non augue.
+        </pre>
+         <p>Esse texto é <tt>monospaced</tt></p><br>
+        <p>Essa palavra foi <del>riscada</del></p><br>
+    </div>
+    <hr><br>
+    
+    <!--hyperlinks-->
+    <div id="hyperlinks">
+        <h1><span style="background-color: yellow;">Textos, parágrafos e Palavras</span></h1><br>
+        <a href="https://br.pinterest.com" target="_blank" title="Goes to pinterest">
+        click me</a>
+        <br>
+        <a href="lyrics.html" target="_blank" title="Goes to My song">Song Lyrics</a>
+        <br>
+        <a href="mailto:test@fake.com">Email me</a>
+    </div><br>
+    <hr><br>
+    <!--Adding Images-->
+    <div id="imgs">
+        <h1><span style="background-color: yellow;">Imagens</span></h1><br>
+    <h1>An edited image inspired by Stardew Valley</h1><br>
+    <a href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki" target="_blank">
+    <img src="Imagens/imagem 1.jpg" alt="Stardew Aesthetic"
+    height="200"
+    width="200">
+    </a>
+    <h3>You can click on it</h3>
+    <br>
+    <h1>This is a Stardew valley Gif</h1><br>
+    <img src="https://i.pinimg.com/originals/b2/03/db/b203db413b35f5e3424bf2b5820e6fca.gif" alt="Gif de stardew"
+    height="200"
+    width="200">
+    </div>
+    <hr>
+    <!--adding audio-->
+    <h1><span style="background-color: yellow;">Audio</span></h1>
+    <div id="audio">
+        <audio controls>
+        <source src="Músicas/Musica do bts.mp3">
+    </audio></div>
+    <hr>
+    <!--Adding videos-->
+    <h1><span style="background-color: yellow;">Vídeo</span></h1><br>
+    <div id="video">
+    <a href="https://pt.stardewvalleywiki.com/Animais" target="_blank">
+    <video src="Videos/VID-20230629-WA0007.mp4"
+    width="260" autoplay muted loop></video></div>
+</a>
+<hr>
+<!--SPAN e DIV-->
+<h1><span style="background-color: yellow;">SPAN E DIV</span></h1><br>  
+<DIV id="divspan">
+<h1><span style="background-color: brown;">Span title</span></h1>
+<h1><div style="background-color: blue;">Div title</div></h1>
+
+<p><span style="background-color: tomato;">Span sentence</span></p>
+<p><div style="background-color: cyan;">Div sentence</div></p>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: brown;">Sint ad rem accusantium 
+    architecto nesciunt quibusdam?</span> Harum itaque hic error, quasi maxime veritatis! 
+    Nesciunt magni sit ipsam, sint necessitatibus perferendis eum.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    <div style="background-color: cyan;">Dicta quia ratione, necessitatibus quisquam omnis accusamus nesciunt dolore in saepe sapiente 
+    ut, non laborum reprehenderit obcaecati, iste similique. Ipsa, ratione nostrum!</div></p>
+</DIV>
+
+<!--Listas!-->
+<!--Unordered List-->
+<hr>
+<h1><span style="background-color: yellow;">Listas</span></h1><br>
+<div id="listas">
+    <h4>Groceries</h4>
+<ul>
+    <li>Milk</li>
+    <li>Eggs</li>
+    <li>bread</li>
+    <li>coffee</li>
+    <li>cleaning supplies</li>
+    <ul>
+        <li>bleach</li>
+        <li>soap</li>
+        <li>scrub</li>
+    </ul>
+</ul><hr>
+
+<!--Ordered-->
+<h4>To do list</h4>
+<ol>
+    <li>eat</li>
+    <li>study</li>
+    <li>clean</li>
+    <ul>
+        <li>bathroom</li>
+        <li>kitchen</li>
+        <li>room</li>
+    </ul><hr>
+</ol>
+
+<!--Description list-->
+<h4>Mythical Creatures </h4>
+<dl style="background-color: burlywood; border:2px solid">
+    <dt>Dragon</dt>
+    <dd>A big lizard with wings</dd>
+
+    <dt>Vampire</dt>
+    <dd>blood sucking creature</dd>
+
+    <dt>werewolf</dt>
+    <dd>a human that can shapeshift into a wolf</dd>
+</dl>
+</div>
+<hr>
+<!--Tables!-->
+<h1><span style="background-color: yellow;">Tabelas</span></h1><br>
+
+<h3 style="text-align: center;">store hours</h3><br><div id="tabela">
+<table border="1" style="border: red;">
+    <tr align="center" style="background-color: grey;">
+        <th width="100">Sunday</th>
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+    </tr>
+    <tr align="center">
+        <td>Closer</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>10-2</td>
+    </tr>
+</table>
+</div><br>
+<hr>
+<!--botões!-->
+<h1><span style="background-color: yellow;">Botão</span></h1><br>
+<div id="botao">
+<a href="https://github.com/camposwenderson" target="_blank">
+<button>
+    I'm a button</button>
+</a>
+</div><br>
+<hr>
+<!--Forms-->
+<!--Post is used for confidential info, like a username and a password-->
+<!--Get is used for insensitive data-->
+<form action="filename.php" method="post" enctype="multipart/form-data">
+    <label for="username">username</label>
+    <input type="text" id="username" placeholder="Lalunamika" minlength="8" maxlength="12" required><br>
+    
+    <label for="password">password</label>
+    <input type="password" id="password" placeholder="Lalunamika" minlength="8" maxlength="12" required><br>
+
+    <label for="Email">Email</label>
+    <input type="email" id="Email" placeholder="lunamika@mails.com"><br>
+
+    <label for="phone">phone #:</label>
+    <input type="tel" id="phone" placeholder="91234-5678" pattern="[0-9]{5}-[0-9]{4}"><br>
+
+    <label for="bday">birthdate</label>
+    <input type="date" id="bday"><br>
+
+    <label for="quantity">quantity</label>
+    <input type="number" id="quantity" min="1" max="10" value="1"><br>
+
+    <label for="title">Title:</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." value="Mr." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+    <label for="payment">payment</label>
+    <select id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+    </select><br>
+
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="comment">comment</label>
+    <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+    <label for="file">file</label>
+    <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+    <input type="reset">
+    <input type="submit">
+</form><hr>
+</main>
+
+<footer style="background-color: blueviolet;">
+    author: aaaaa
+    &copy; copyright reserved<br>
+    <a href="mailto:email@fake.com">email@fake.com</a>
+</footer>
+
+</body>
+</html>
